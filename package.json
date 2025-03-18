@@ -1,0 +1,26 @@
+{
+  "name": "soukart",
+  "version": "1.0.0",
+  "description": "+ système de gestion de commandes e-commerce \r Nom de projet \"SoukArt\" (Souk = marche traditionnel)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaliljaouani/SoukArt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaliljaouani/SoukArt/issues"
+  },
+  "homepage": "https://github.com/khaliljaouani/SoukArt#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1"
+  }
+}

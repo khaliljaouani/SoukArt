@@ -4,6 +4,7 @@ Nom de projet "SoukArt" (Souk = marche traditionnel)
 
 --Utilisateurs(Clients/Vendeurs)
 ++Inscription/Connexion
+
 ++Profil utilisateur (information personnelles)
 ++Ajout de produits ( statut en attente par defaut ) 
 ++Visualisation des produits:

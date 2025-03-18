@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Produits</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Liste des Produits</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Description</th>
+                <th>Prix</th>
+                <th>Quantite</th>
+                <th>Statut</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% produits.forEach(produit => { %>
+                <tr>
+                    <td><%= produit.nom %></td>
+                    <td><%= produit.description %></td>
+                    <td><%= produit.prix %> €</td>
+                    <td><%= produit.quantite %></td>
+                    <td><%= produit.statut %></td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</body>
+</html>

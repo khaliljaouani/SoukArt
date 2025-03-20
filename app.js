@@ -18,6 +18,11 @@ app.set('view engine', 'ejs');
 app.get('/produits', produitController.getProduits);
 app.post('/produits/ajouter', produitController.ajouterProduit);
 
+app.get('/produits/ajouter', (req, res) => {
+    res.render('ajouter-produit'); // Assure-toi que le fichier ajouterProduit.ejs existe bien dans /views
+  });
+  
+
 // Route de base
 app.get('/', (req, res) => {
     res.send('Bienvenue sur SoukArt!');
